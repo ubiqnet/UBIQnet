@@ -12,6 +12,9 @@ Our documentation is hosted at https://docs.ubiqnet.io.
 ## Get in touch
 [Only official website](https://www.ubiqnet.io/)
 
+## Community
+[Telegram](https://t.me/UBIQdev)
+
 ## License
 
 This library is distributed under the BSD-style license found in the [LICENSE](LICENSE) file.
