@@ -1,0 +1,60 @@
+package constants
+
+const NodeTypeVerify = 1
+const NodeTypeStable = 2
+const NodeTypeNomal = 3
+
+const PleageVerify = 50
+const PleageStable = 10
+const PleageNormal = 0
+const UbqAddress = "0x7fB53E7b82A3387324545DFF9BbF53237A0816C2"
+const PoolAddress = "0x64786AdE0BC0387c3b25f5fcc7777F324e161436"
+const FactoryAddress = "0x2C1A47E73494DC8Cc980c82fEE30F2c139137fB9"
+const TradeAddress = "0x2223219245593a669A0Ba74ce8e6a4dE50B284D2"
+const NftIpAddress = "0xF94B7391b8D882f1a6D1258FfEE1797548b010F0"
+const NftBandWidth = "0x06a755DF8C36F7A6ceE9c90df1850DdA6Fb1E9Ae"
+const NftCpuAddress = "0x90e8Ab9F9c4dC67dF05D595f6F06C77774366572"
+const NftMemAddress = "0x3bD0A5B37520B549958Ec31Bd5Bb12e43a02Cdc6"
+const NftGpuAddress = "0x1740f3b385C83cde00EC441F6D8b423Fc2F080B0"
+const NftStorageAddress = "0xFbAEB577190ae7A36B26aa625B6883eABB934102"
+const SwarmKey = "/key/swarm/psk/1.0.0/\n/base16/\n0251e3ba088f9f2c545beff10c811851832cee6294e514b8fbbcbe56ad1fc126"
+const ContractHashKey = "contract_hash"
+const NftRecordKey = "nftRecord"
+const NftListKey = "nftList"
+const NftCountKey = "nftCount"
+const ContractAddressKey = "contract_address"
+const NodeTypeKey = "node_type"
+const NftMintKey = "nft_mint"
+const UploadNum = 12
+const HeartKeyPrefix = "heart"
+const HeartHashKeyPrefix = "heart_hash_"
+const LastUploadTimeKey = "last_upload_time"
+const WriteLevelKey = "write_level"
+const PledgeStatusKey = "pledgeStatus"
+const PledgeSymbol int64 = 1000000000000000000
+
+const IpPrice = 100000000000000000
+const BrandWidthPrice = 200000000000000000
+const CpuPrice = 300000000000000000
+const MemPrice = 400000000000000000
+const StoragePrice = 500000000000000000
+const GpuPrice = 600000000000000000
+
+const EncryptKey = "ohcloud"
+const SYSTEM_NOT_SUITABLE = "Your system does not meet the minimum requirements！"
+const WriteDiskCoefficient = 0.1
+const WriteDiskProcess = 1
+const CurrentOrderIdKey = "currentOrderId"
+const VerifyPeerIdKey = "verifyPeerId"
+const ChildNodeKey = "childNode"
+const DeployBlockNumKey = "deploy_block_num"
+const UploadIdKey = "uploadId"
+const MEM_CurrentOrderIdKey = "currentOrderId"
+const DEVICE_INFO_KEY = "deviceInfo"
+const MEM_DEVICE_LOCKED_PREFIX = "deviceLocked-"
+const MEM_DEVICE_LOCKED_TOKEN_PREFIX = "deviceLockedToken-"
+const ORDER_TEMPLATE_ID_RECEIVED = "orderIdTemplateId-"
+const MEM_ORDER_CHECK_PREFIX = "orderCheck-"
+const NODE_DATA_DIR_KEY = "nodeDataDir"
+const STOP_CONTAONER_KEY_PRIFIX = "stopContainer-"
+const HASH_CHECK_KEY_PRIFIX = "checkHash-"

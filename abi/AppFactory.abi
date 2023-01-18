@@ -1,0 +1,418 @@
+[
+	{
+		"inputs": [],
+		"stateMutability": "nonpayable",
+		"type": "constructor"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": true,
+				"internalType": "address",
+				"name": "previousOwner",
+				"type": "address"
+			},
+			{
+				"indexed": true,
+				"internalType": "address",
+				"name": "newOwner",
+				"type": "address"
+			}
+		],
+		"name": "OwnershipTransferred",
+		"type": "event"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_appContract",
+				"type": "address"
+			},
+			{
+				"internalType": "address[]",
+				"name": "_templates",
+				"type": "address[]"
+			},
+			{
+				"internalType": "bool",
+				"name": "_isTemplate",
+				"type": "bool"
+			},
+			{
+				"internalType": "string",
+				"name": "_name",
+				"type": "string"
+			},
+			{
+				"internalType": "string[]",
+				"name": "_image",
+				"type": "string[]"
+			},
+			{
+				"internalType": "bool",
+				"name": "_isExpanded",
+				"type": "bool"
+			},
+			{
+				"internalType": "uint256",
+				"name": "totalPrice",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint64",
+				"name": "duration",
+				"type": "uint64"
+			}
+		],
+		"name": "deployApp",
+		"outputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_templateType",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string[]",
+				"name": "_info",
+				"type": "string[]"
+			},
+			{
+				"internalType": "uint256[]",
+				"name": "_infoC",
+				"type": "uint256[]"
+			},
+			{
+				"internalType": "string",
+				"name": "_name",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_image",
+				"type": "string"
+			}
+		],
+		"name": "deployTemplate",
+		"outputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "getAllTemplateApp",
+		"outputs": [
+			{
+				"internalType": "address[]",
+				"name": "",
+				"type": "address[]"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "getAllTemplateTem",
+		"outputs": [
+			{
+				"internalType": "address[]",
+				"name": "",
+				"type": "address[]"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "owner",
+				"type": "address"
+			}
+		],
+		"name": "getAppContract",
+		"outputs": [
+			{
+				"internalType": "address[]",
+				"name": "",
+				"type": "address[]"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_appContract",
+				"type": "address"
+			}
+		],
+		"name": "getAppUseInfo",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "templateAddress",
+				"type": "address"
+			}
+		],
+		"name": "getHardwareCountByAddress",
+		"outputs": [
+			{
+				"components": [
+					{
+						"internalType": "uint256",
+						"name": "cpuC_",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "ipC_",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "gpuC_",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "storageC_",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "memC_",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "bandWidthC_",
+						"type": "uint256"
+					}
+				],
+				"internalType": "struct AppFactory.HardwareCount",
+				"name": "",
+				"type": "tuple"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "templateAddress",
+				"type": "address"
+			}
+		],
+		"name": "getHardwareInfoByAddress",
+		"outputs": [
+			{
+				"components": [
+					{
+						"internalType": "string",
+						"name": "cpu_",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "ip_",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "gpu_",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "storage_",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "mem_",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "bandwidth_",
+						"type": "string"
+					}
+				],
+				"internalType": "struct AppFactory.HardwareInfo",
+				"name": "",
+				"type": "tuple"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "templateId",
+				"type": "uint256"
+			}
+		],
+		"name": "getTemplateAddressById",
+		"outputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "getTemplateCount",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "templateAddress",
+				"type": "address"
+			}
+		],
+		"name": "getTemplateOwner",
+		"outputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "owner",
+		"outputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "renounceOwnership",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_templateAddress",
+				"type": "address"
+			},
+			{
+				"internalType": "bool",
+				"name": "_isTemplate",
+				"type": "bool"
+			}
+		],
+		"name": "setAppTemplate",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_templateAddress",
+				"type": "address"
+			},
+			{
+				"internalType": "bool",
+				"name": "_isTemplate",
+				"type": "bool"
+			}
+		],
+		"name": "setTemTemplate",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_tradeAddress",
+				"type": "address"
+			}
+		],
+		"name": "setTradeAddress",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "newOwner",
+				"type": "address"
+			}
+		],
+		"name": "transferOwnership",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	}
+]

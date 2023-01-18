@@ -1,0 +1,13 @@
+# this file contains plugins to be preloaded
+# empty lines or starting with '#' are ignored
+#
+# name             go-path                  number of the sub-plugin or *
+
+ipldgit ubiqnet/plugin/plugins/git *
+iplddagjose ubiqnet/plugin/plugins/dagjose *
+
+badgerds ubiqnet/plugin/plugins/badgerds *
+flatfs ubiqnet/plugin/plugins/flatfs *
+levelds ubiqnet/plugin/plugins/levelds *
+peerlog ubiqnet/plugin/plugins/peerlog *
+fxtest ubiqnet/plugin/plugins/fxtest *
