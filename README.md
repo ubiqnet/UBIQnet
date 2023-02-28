@@ -13,7 +13,9 @@ Our documentation is hosted at https://docs.ubiqnet.io.
 [Only official website](https://www.ubiqnet.io/)
 
 ## Community
-[Telegram](https://t.me/UBIQdev)
+[Discord](https://discord.gg/hKhmgPJsjH)
+
+## [How to Participate in UBIQnet developer community](JoinCommunity.md)
 
 ## License
 
