@@ -1,14 +1,20 @@
 # <center>UBIQnet Developer Community
-####  1. How to Participate in UBIQnet developer community?
+###  1. How to Participate in UBIQnet developer community?<br/>
 If you want to participate in the UBIQnet developer community, there are several steps
 you can take:<br/>
- 1) Follow UBIQnet GitHub (https://github.com/ubiqnet) to stay up to date on the latest developments and news about the project.<br/>
- 2) Download and test the MVP version of UBIQnet to gain a better understanding of the project's capabilities and features.<br/>
- 3) If you're a developer who would like to contribute to the project, provide development technical proposals stating which part of the project you are capable of participating in, as well as the time and budget you have available for the work.<br/>
- 4) Stay engaged and interactive in the UBIQnet developer community. This community is an excellent resource for support and knowledge-sharing, and it's also a great place to network with other developers who are passionate about building the future of web3.0. <br/>
- 5) Developers or teams with good proposals and engagement will be rewarded with a contract.<br/>
- 6) Particularly outstanding developers may also have the opportunity to join the UBIQnet team directly.<br/>
- 7) staying engaged in the developer community, you will have plenty of opportunities to contribute to the project as it progresses. <br/>
+1\) Follow UBIQnet GitHub (https://github.com/ubiqnet) to stay up to date on the latest developments and news about the project.<br/>  
+ 
+2\) Download and test the MVP version of UBIQnet to gain a better understanding of the project's capabilities and features.<br/>
+
+3\) If you're a developer who would like to contribute to the project, provide development technical proposals stating which part of the project you are capable of participating in, as well as the time and budget you have available for the work.<br/>
+
+4\) Stay engaged and interactive in the UBIQnet developer community. This community is an excellent resource for support and knowledge-sharing, and it's also a great place to network with other developers who are passionate about building the future of web3.0. <br/>
+
+5\) Developers or teams with good proposals and engagement will be rewarded with a contract.<br/>
+
+6\) Particularly outstanding developers may also have the opportunity to join the UBIQnet team directly.<br/>
+ 
+7\) staying engaged in the developer community, you will have plenty of opportunities to contribute to the project as it progresses. <br/>
 &emsp;
 ### 2. Incentive Mechanism for Developers
 * Development Contract<br/>
