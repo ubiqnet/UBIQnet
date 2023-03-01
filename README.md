@@ -1,7 +1,7 @@
 # UBIQnet
 
 ## Overview
-UBIQnet is a web3-based infrastructure for Ubiquitous Computing, which can adaptively schedule computing resources among cloud, network, and edge according to business demands.
+UBIQnet is the trusted and adaptive heterogeneous computing infrastructure for web3.0, using our innovative dynamic fractional NFT smart contracts for efficient scheduling and providing intelligent, serverless, and future-proof solutions for businesses and developers in the realm of ubiquitous computing.
 
 ## DISCLAIMER
 Our documentation is hosted at https://docs.ubiqnet.io.
